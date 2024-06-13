@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .app-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .header {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .todo-container {
+    background-color: #fafafa;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #eee;
+    margin-top: 10px;
+  }
+  
+  .no-todos {
+    color: #888;
+    font-size: 14px;
+  }
+  
+  .delete-icon {
+    color: red;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  .edit-icon {
+    color: blue;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .todo-item {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+  .todo-title {
+    width: 100px;
+    display: inline-block; /* Ensure the width is respected */
+    overflow: hidden; /* Hide overflow text */
+    text-overflow: ellipsis; /* Add ellipsis if text is too long */
+    white-space: nowrap; /* Prevent text wrapping */
+  }
+  
